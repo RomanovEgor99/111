@@ -1,0 +1,14 @@
+D:\Users\egor\source\repos\AiSD\AiSD\bin\Debug\AiSD.exe.config
+D:\Users\egor\source\repos\AiSD\AiSD\bin\Debug\AiSD.exe
+D:\Users\egor\source\repos\AiSD\AiSD\bin\Debug\AiSD.pdb
+D:\Users\egor\source\repos\AiSD\AiSD\obj\Debug\AiSD.csprojResolveAssemblyReference.cache
+D:\Users\egor\source\repos\AiSD\AiSD\obj\Debug\AiSD.csproj.CoreCompileInputs.cache
+D:\Users\egor\source\repos\AiSD\AiSD\obj\Debug\AiSD.exe
+D:\Users\egor\source\repos\AiSD\AiSD\obj\Debug\AiSD.pdb
+D:\Users\egor\Desktop\AiSD\AiSD\bin\Debug\AiSD.exe.config
+D:\Users\egor\Desktop\AiSD\AiSD\bin\Debug\AiSD.exe
+D:\Users\egor\Desktop\AiSD\AiSD\bin\Debug\AiSD.pdb
+D:\Users\egor\Desktop\AiSD\AiSD\obj\Debug\AiSD.csprojAssemblyReference.cache
+D:\Users\egor\Desktop\AiSD\AiSD\obj\Debug\AiSD.csproj.CoreCompileInputs.cache
+D:\Users\egor\Desktop\AiSD\AiSD\obj\Debug\AiSD.exe
+D:\Users\egor\Desktop\AiSD\AiSD\obj\Debug\AiSD.pdb

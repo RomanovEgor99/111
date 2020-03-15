@@ -8,7 +8,7 @@ namespace AiSD
 {
     class Program
     {
-        static void Main(string[] args)
+        unsafe static void Main(string[] args)
         {
             uint[] arrayOfUint = new uint[10];
             Console.WriteLine("Одномерный массив беззнаковых целых чисел: ");
@@ -40,16 +40,16 @@ namespace AiSD
                 }
                 Console.WriteLine("\n");
             }
+            Console.WriteLine("Вводим данные в массив №1.\n");
             Random rand = new Random();
             Console.WriteLine("Одномерный массив беззнаковых целых чисел: ");
-            foreach (uint i in arrayOfUint)
+            for (int i=0; i<10; i++)
             {
-                arrayOfUint[i] = (uint)rand.Next(1, 99);
+                arrayOfUint[i] = (uint) rand.Next(1, 99);
+                Console.Write(" {0}", arrayOfUint[i]);
             }
-            foreach (uint i in arrayOfUint)
-            {
-                Console.Write(" {0}", i);
-            }
+            Console.WriteLine("")
+
             Console.ReadLine();
         }
     }
