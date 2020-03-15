@@ -10,47 +10,51 @@ namespace AiSD
     {
         unsafe static void Main(string[] args)
         {
-            uint[] arrayOfUint = new uint[10];
-            Console.WriteLine("Одномерный массив беззнаковых целых чисел: ");
-            foreach (uint i in arrayOfUint)
-            {
-                Console.Write(" {0}", i);
-            }
-            Console.WriteLine("\nСтатический одномерный массив символов:");
-            char[] arrayOfChar = new char[10];
-            foreach (char j in arrayOfUint)
-            {
-                Console.Write(" {0}", j);
-            }
-            int[,,] arrayOfInt = new int[10, 10, 3];
-            Console.WriteLine("\nТрехмерный массив целых чисел:");
 
-            for (int k = 0; k < 3; k++)
-            {
-                Console.Write("Массив №{0} \n", k);
-                for (int j = 0; j < 10; j++)
+            uint[] arrayOfUint = new uint[10];
+            
+
+                Console.WriteLine("Одномерный массив беззнаковых целых чисел: ");
+                foreach (uint i in arrayOfUint)
                 {
-                    for (int i = 0; i < 10; i++)
+                    Console.Write(" {0}", i);
+                }
+                Console.WriteLine("\nСтатический одномерный массив символов:");
+                char[] arrayOfChar = new char[10];
+                foreach (char j in arrayOfUint)
+                {
+                    Console.Write(" {0}", j);
+                }
+                int[,,] arrayOfInt = new int[10, 10, 3];
+                Console.WriteLine("\nТрехмерный массив целых чисел:");
+
+                for (int k = 0; k < 3; k++)
+                {
+                    Console.Write("Массив №{0} \n", k);
+                    for (int j = 0; j < 10; j++)
                     {
-                        Console.Write("{0}, ", arrayOfInt[i, j, k]);
+                        for (int i = 0; i < 10; i++)
+                        {
+                            Console.Write("{0}, ", arrayOfInt[i, j, k]);
+
+                        }
+                        Console.WriteLine();
 
                     }
-                    Console.WriteLine();
-
+                    Console.WriteLine("\n");
                 }
-                Console.WriteLine("\n");
-            }
-            Console.WriteLine("Вводим данные в массив №1.\n");
-            Random rand = new Random();
-            Console.WriteLine("Одномерный массив беззнаковых целых чисел: ");
-            for (int i=0; i<10; i++)
-            {
-                arrayOfUint[i] = (uint) rand.Next(1, 99);
-                Console.Write(" {0}", arrayOfUint[i]);
-            }
-            Console.WriteLine("")
+                Console.WriteLine("Вводим данные в массив №1.\n");
+                Random rand = new Random();
+                Console.WriteLine("Одномерный массив беззнаковых целых чисел: ");
+                for (int i = 0; i < 10; i++)
+                {
+                    arrayOfUint[i] = (uint)rand.Next(1, 99);
+                    Console.Write(" {0}", arrayOfUint[i]);
+                }
+                Console.WriteLine("");
 
-            Console.ReadLine();
+                Console.ReadLine();
+            
         }
     }
 }
